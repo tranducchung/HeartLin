@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Title</title>
     <style>
-        html, body {
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            background: #000;
-        }
-        canvas {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-        #main-text {
-            color: deeppink;
-            position: absolute;
-            text-align: center;
-            font-size: 52px;
-            font-family: cursive;
-            cursor: grabbing;
-            text-shadow: 2px 2px black;
-            font-weight: bold;
-        }
-        audio {
-            position: absolute
-        }
+      html,
+      body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: #000;
+      }
+      canvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      #main-text {
+        color: deeppink;
+        position: absolute;
+        text-align: center;
+        font-size: 52px;
+        font-family: cursive;
+        cursor: grabbing;
+        text-shadow: 2px 2px black;
+        font-weight: bold;
+      }
+      audio {
+        position: absolute;
+      }
+      /* #MyLinh-img {
+        width: 100px !important;
+      } */
     </style>
-</head>
-<body>
-<div>
-    <canvas id="pinkboard" width="1440" height="369">
-    </canvas>
-    <audio id="my-audio" src="music/TiengPhaoTienNguoi-HungQuan-7612646.mp3" controls></audio>
-    <div id="main-text"></div>
-    <img alt="" id="Nun-img" src="music/174654106_2111191852365462_7901235048001477695_n.jpeg">
-</div>
+  </head>
+  <body>
+    <div>
+      <canvas id="pinkboard" width="1440" height="369"> </canvas>
+      <audio
+        id="my-audio"
+        src="music/TiengPhaoTienNguoi-HungQuan-7612646.mp3"
+        controls
+        autoplay
+        muted
+      ></audio>
+      <div id="main-text"></div>
+      <img
+        alt=""
+        id="MyLinh-img"
+        src="music/122093424_2519918218230634_8391897837191645497_n.jpg"
+      />
+    </div>
 
-
-<script src="heart.js">
-</script>
-</body>
+    <script src="heart.js"></script>
+  </body>
 </html>
